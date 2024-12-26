@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function ToDOList() {
   const [tasks, setTasks] = useState([
-    "Go to college",
-    "write external exam",
-    "pay college fee",
+    "Wake up",
+    "Go to the ground",
+    "Play games",
   ]);
   const [newTask, setNewTask] = useState("");
 
